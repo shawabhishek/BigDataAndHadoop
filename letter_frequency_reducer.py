@@ -18,7 +18,7 @@ letter = ''
 for line in fileinput.input():
 	if line[0] != letter:
 		letter = line[0]
-		frequencies.append([letter, 0])
+		frequencies.append([letter, 1])
 	else:
 		frequencies[-1][1] += 1
 
