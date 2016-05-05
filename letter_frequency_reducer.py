@@ -8,7 +8,7 @@
 
 # Given sorted input of key = letter, value = 1, sum per letter and output letter and its sum
 
-# I originally used a Python dictionary, but that doesn't take advantage (performance-wise) of the sort that Hadoop has already done.
+# I originally used a Python dictionary, but that doesn't take advantage (performance-wise) of the sort that has already been done.
 
 import fileinput
 

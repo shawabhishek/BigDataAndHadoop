@@ -1,9 +1,12 @@
 #!/usr/bin/python
 
-# Alan Shaw
-# Assignment 2.3b  Match DNA forward or backward
+# Written by Alan Shaw for the Session 4 Assignment of the Big Data and Hadoop course at http://www.knowbigdata.com for use with Hadoop Streaming.
+
+# A file contains the DNA sequence of people. Find all the people who have the same DNA. 
 
 # Mapper
+
+# Output the max of the DNA string and its mirror image as the key and the user as the value
 
 import fileinput
 import re
