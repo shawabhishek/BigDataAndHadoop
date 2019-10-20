@@ -11,6 +11,7 @@
 # Two outputs per record
 
 import fileinput
+import numpy
 import re
 
 for line in fileinput.input():
